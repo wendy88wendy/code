@@ -85,6 +85,7 @@ echo -n "请输入编号: "
 read N
 case $N in
   1) bash reinstall.sh -dd "http://d.wendy8.com/os/linux/centos-76.img.gz";;
+  #1) bash reinstall.sh -dd "http://kodo.wendy8.com/images/linux/CentOS-76.img.gz";;
   2) bash reinstall.sh -dd "http://qiniu.download-wendy.cn/images/linux/CentOS-MTP.vhd.gz";;
   3) bash reinstall.sh -dd "https://gz-1329157705.cos.ap-guangzhou.myqcloud.com/os/linux/CentOS-76.img.gz";;
   4) bash reinstall.sh -dd "http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x64-cn.vhd.gz";;
