@@ -44,10 +44,10 @@ echo -e "
 \033[0;1;32m#\033[0m                    \033[0;1;31m请根据您的服务器情况选择您需要的服务                    \033[0;1;32m#
 \033[0;1;32m#\033[0m       \033[0;1;32m(1)CentOS7.x                                                       \033[0;1;32m#
 \033[0;1;32m#\033[0m       \033[0;1;32m(2)CentOS76-MTP                                                      \033[0;1;32m#
-\033[0;1;32m#\033[0m       \033[0;1;32m(3)CentOS76广州中转                                                      \033[0;1;32m#
-\033[0;1;32m#\033[0m       \033[0;1;32m(4)  Window 7 x64                                                    \033[0;1;32m#
-\033[0;1;32m#\033[0m       \033[0;1;32m(5)  Window 10 x64                                                   \033[0;1;32m#
-\033[0;1;32m#\033[0m       \033[0;1;32m(6)  Windows server 2022                                             \033[0;1;32m#
+\033[0;1;32m#\033[0m       \033[0;1;32m(3)  Windows server 2022 密码：WinSrv2012r                            \033[0;1;32m#
+\033[0;1;32m#\033[0m       \033[0;1;32m(4)  Window 7 x64 密码：cxthhhhh                                      \033[0;1;32m#
+\033[0;1;32m#\033[0m       \033[0;1;32m(5)  zh-cn_windows10_ltsc 密码：cxthhhhh                             \033[0;1;32m#
+\033[0;1;32m#\033[0m       \033[0;1;32m(6)  Windows server 2022 密码：cxthhhhh                               \033[0;1;32m#
 \033[0;1;32m#\033[0m       \033[0;1;32m(7)  Debian 7                                                        \033[0;1;32m#
 \033[0;1;32m#\033[0m       \033[0;1;32m(8)  Debian 8                                                        \033[0;1;32m#
 \033[0;1;32m#\033[0m       \033[0;1;32m(9)  Debian 9                                                        \033[0;1;32m#
@@ -87,10 +87,10 @@ case $N in
   1) bash reinstall.sh -dd "https://dd.wx.mk/cxthhhhh/CentOS_7.X_NetInstallation_Final_v9.2.vhd.gz";;
   #1) bash reinstall.sh -dd "https://dd.wx.mk/system/CentOS_7.X_NetInstallation.vhd.gz";;
   2) bash reinstall.sh -dd "http://qiniu.download-wendy.cn/images/linux/CentOS-MTP.vhd.gz";;
-  3) bash reinstall.sh -dd "https://gz-1329157705.cos.ap-guangzhou.myqcloud.com/os/linux/CentOS-76.img.gz";;
-  4) bash reinstall.sh -dd "http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x64-cn.vhd.gz";;
-  5) bash reinstall.sh -dd "http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn.vhd.gz";;
-  6) bash reinstall.sh -dd "http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2022_DataCenter_CN_v2.12.vhd.gz";;
+  3) bash reinstall.sh -dd "https://dd.wx.mk/system/WinSrv2012r2_v2.vhd.gz";;
+  4) bash reinstall.sh -dd "https://dd.wx.mk/cxthhhhh/Disk_Windows_7_Vienna_Ultimate_CN.vhd.gz";;
+  5) bash reinstall.sh -dd "https://dd.wx.mk/cxthhhhh/zh-cn_windows10_ltsc.xz";;
+  6) bash reinstall.sh -dd "https://dd.wx.mk/cxthhhhh/zh-cn_win2022.xz";;
   7) bash reinstall.sh -d 7 -p Wd8264.. ;;
   8) bash reinstall.sh -d 8 -p Wd8264.. ;;
   9) bash reinstall.sh -d 9 -p Wd8264.. ;;
