@@ -42,7 +42,7 @@ echo -e "
  \033[0;32m------------------------------------\033[0m\033[0;1;31mby Wendy\033[0m\033[0;32m----------------\033[0m
 \033[0;1;32m##############################################################################\033[0m
 \033[0;1;32m#\033[0m                    \033[0;1;31m请根据您的服务器情况选择您需要的服务                    \033[0;1;32m#
-\033[0;1;32m#\033[0m       \033[0;1;32m(1)CentOS76最小安装版                                                \033[0;1;32m#
+\033[0;1;32m#\033[0m       \033[0;1;32m(1)CentOS7.x                                                       \033[0;1;32m#
 \033[0;1;32m#\033[0m       \033[0;1;32m(2)CentOS76-MTP                                                      \033[0;1;32m#
 \033[0;1;32m#\033[0m       \033[0;1;32m(3)CentOS76广州中转                                                      \033[0;1;32m#
 \033[0;1;32m#\033[0m       \033[0;1;32m(4)  Window 7 x64                                                    \033[0;1;32m#
@@ -84,8 +84,8 @@ echo ""
 echo -n "请输入编号: "
 read N
 case $N in
-  1) bash reinstall.sh -dd "http://d.wendy8.com/os/linux/centos-76.img.gz";;
-  #1) bash reinstall.sh -dd "http://kodo.wendy8.com/images/linux/CentOS-76.img.gz";;
+  1) bash reinstall.sh -dd "https://dd.wx.mk/cxthhhhh/CentOS_7.X_NetInstallation_Final_v9.2.vhd.gz";;
+  #1) bash reinstall.sh -dd "https://dd.wx.mk/system/CentOS_7.X_NetInstallation.vhd.gz";;
   2) bash reinstall.sh -dd "http://qiniu.download-wendy.cn/images/linux/CentOS-MTP.vhd.gz";;
   3) bash reinstall.sh -dd "https://gz-1329157705.cos.ap-guangzhou.myqcloud.com/os/linux/CentOS-76.img.gz";;
   4) bash reinstall.sh -dd "http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x64-cn.vhd.gz";;
