@@ -24,7 +24,7 @@ echo -e "
 \033[0;1;31m#-------------------------------------------------------------------------------#
 \033[0;1;32m#-------------------------------------------------------------------------------#
  "
-wget --no-check-certificate --header 'Content-Type: application/json;charset=UTF-8' -qO npc.tar.gz 'https://gitee.com/api/v5/repos/wendy-tools/get/raw/nps/v0.26.9/client/linux_amd64_client.tar.gz?access_token=e714ea221d82ae604117e8410d2d309e'
+wget --no-check-certificate -O npc.tar.gz 'https://github.com/ehang-io/nps/releases/download/v0.26.10/linux_amd64_client.tar.gz'
 echo -e "
 \033[0;1;30m#-------------------------------------------------------------------------------#
 \033[0;1;31m#-------------------------------------------------------------------------------#
